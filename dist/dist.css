@@ -40,11 +40,11 @@
 }
 
 :root .title {
-  color: var(--blue);
+  color: var(--blue) !important;
 }
 
 :root a {
-  color: var(--pink);
+  color: var(--pink) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */
