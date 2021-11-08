@@ -58,6 +58,24 @@
   color: var(--blue) !important;
 }
 
-:root a {
+:root editor-content a {
+  color: var(--pink) !important;
+}
+
+:root #footer-bar #editor-menu-bar {
+  background-color: var(--soft-black) !important;
+  color: var(--soft-white) !important;
+}
+
+:root .sk-app-bar {
+  background-color: var(--soft-white) !important;
+}
+
+:root .sn-tag:hover {
+  background-color: var(--pink) !important;
+  color: var(--soft-black) !important;
+}
+
+:root .sk-label:hover {
   color: var(--pink) !important;
 }
