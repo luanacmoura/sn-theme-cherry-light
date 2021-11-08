@@ -1,16 +1,18 @@
 :root {
   // Variable tones
-  --soft-white: #eeeded;
+  --soft-white: #fafafa;
   --soft-black: #303030;
   --dark-pink: #c62e65;
   --light-pink: #ffa4c6af;
   --green: #80ed99;
   --blue: #22677a;
-  --light-gray: #c9c8c8;
+  --light-blue: #4b8fa1be ;
+  --light-gray: #f6f6f6;
 
   // StyleKit Vars
   --sn-stylekit-shadow-color: var(--light-gray);
-
+  --sn-stylekit-foreground-color: var(--soft-black);
+  
   --sn-stylekit-info-color: var(--green);
   --sn-stylekit-info-contrast-color: var(--soft-black);
 
@@ -27,20 +29,20 @@
   --sn-stylekit-danger-contrast-color: var(--soft-black);
 
   --sn-stylekit-editor-background-color: var(--soft-white);
-  --sn-stylekit-editor-foreground-color: var(--soft-white);
+  --sn-stylekit-editor-foreground-color: var(--soft-black);
   --sn-stylekit-border-color: var(--light-gray);
 
-  --sn-stylekit-contrast-background-color: var(--soft-black);
-  --sn-stylekit-contrast-foreground-color: var(--soft-white);
+  --sn-stylekit-contrast-background-color: var(--light-gray);
+  --sn-stylekit-contrast-foreground-color: var(--soft-black);
   --sn-stylekit-contrast-border-color: var(--light-gray);
 
   --sn-stylekit-secondary-background-color: var(--soft-black);
   --sn-stylekit-secondary-foreground-color: var(--soft-white);
-  --sn-stylekit-secondary-border-color: var(--light-gray);
+  --sn-stylekit-secondary-border-color: var(--soft-black);
 
   --sn-stylekit-secondary-contrast-background-color: var(--soft-black);
   --sn-stylekit-secondary-contrast-foreground-color: var(--soft-white);
-  --sn-stylekit-secondary-contrast-border-color: var(--light-gray);
+  --sn-stylekit-secondary-contrast-border-color: var(--soft-black);
 
   --sn-stylekit-paragraph-text-color: var(--soft-black);
 
