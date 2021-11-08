@@ -1,12 +1,11 @@
 :root {
   --soft-white: #fafafa;
   --soft-black: #303030;
-  --dark-pink: #c62e65;
-  --light-pink: #ffa4c6af;
+  --red: #fe5f55;
+  --melon-pink: #efb0a1;
   --green: #80ed99;
-  --blue: #22677a;
-  --light-blue: #4b8fa1be ;
-  --light-gray: #f6f6f6;
+  --blue: #86BBD8;
+  --light-gray: #e2e2e2;
   --sn-stylekit-shadow-color: var(--light-gray);
   --sn-stylekit-foreground-color: var(--soft-black);
   --sn-stylekit-info-color: var(--green);
@@ -17,7 +16,7 @@
   --sn-stylekit-success-contrast-color: var(--soft-black);
   --sn-stylekit-warning-color: var(--blue);
   --sn-stylekit-warning-contrast-color: var(--soft-black);
-  --sn-stylekit-danger-color: var(--dark-pink);
+  --sn-stylekit-danger-color: var(--red);
   --sn-stylekit-danger-contrast-color: var(--soft-black);
   --sn-stylekit-editor-background-color: var(--soft-white);
   --sn-stylekit-editor-foreground-color: var(--soft-black);
@@ -37,7 +36,15 @@
   --sn-desktop-titlebar-bg-color: var(--soft-white);
   --sn-desktop-titlebar-border-color: var(--light-gray);
   --sn-desktop-titlebar-ui-color: var(--soft-black);
-  --sn-desktop-titlebar-ui-hover-color: var(--light-pink);
+  --sn-desktop-titlebar-ui-hover-color: var(--red);
+}
+
+:root .title {
+  color: var(--blue);
+}
+
+:root a {
+  color: var(--pink);
 }
 
 /*# sourceMappingURL=dist.css.map */
