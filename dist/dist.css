@@ -47,7 +47,7 @@
   color: var(--melon-pink) !important;
 }
 
-:root #footer-bar #editor-menu-bar {
+:root #footer-bar {
   background-color: var(--soft-black) !important;
   color: var(--soft-white) !important;
 }
