@@ -31,9 +31,9 @@
   --sn-stylekit-editor-foreground-color: var(--soft-black);
   --sn-stylekit-border-color: var(--light-gray);
 
-  --sn-stylekit-contrast-background-color: var(--light-gray);
-  --sn-stylekit-contrast-foreground-color: var(--soft-black);
-  --sn-stylekit-contrast-border-color: var(--light-gray);
+  --sn-stylekit-contrast-background-color: var(--soft-black);
+  --sn-stylekit-contrast-foreground-color: var(--soft-white);
+  --sn-stylekit-contrast-border-color: 0;
 
   --sn-stylekit-secondary-background-color: var(--soft-black);
   --sn-stylekit-secondary-foreground-color: var(--soft-white);
@@ -72,6 +72,6 @@
   color: var(--soft-black) !important;
 }
 
-:root .sk-label:hover {
-  color: var(--soft-white) !important;
+:root .sk-label:hover .sk-label:active #note-title-editor{
+  color: var(--melon-pink) !important;
 }
