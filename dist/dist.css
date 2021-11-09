@@ -52,17 +52,13 @@
   color: var(--soft-white) !important;
 }
 
-:root .sk-app-bar {
-  background-color: var(--melon-pink) !important;
-}
-
 :root .sn-tag:hover {
   background-color: var(--melon-pink) !important;
   color: var(--soft-black) !important;
 }
 
 :root .sk-label:hover {
-  color: var(--melon-pink) !important;
+  color: var(--soft-white) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */
