@@ -43,8 +43,8 @@
   color: var(--blue) !important;
 }
 
-:root editor-content a {
-  color: var(--pink) !important;
+:root .editor-content a {
+  color: var(--melon-pink) !important;
 }
 
 :root #footer-bar #editor-menu-bar {
@@ -53,16 +53,16 @@
 }
 
 :root .sk-app-bar {
-  background-color: var(--soft-white) !important;
+  background-color: var(--melon-pink) !important;
 }
 
 :root .sn-tag:hover {
-  background-color: var(--pink) !important;
+  background-color: var(--melon-pink) !important;
   color: var(--soft-black) !important;
 }
 
 :root .sk-label:hover {
-  color: var(--pink) !important;
+  color: var(--melon-pink) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */
