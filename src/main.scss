@@ -3,16 +3,16 @@
   --soft-black: #303030;
   --melon-pink: #efb0a1;
   --soft-pink: #FEE8E3;
-  --green: #acf39d;
+  --purple: #AA4465;
   --blue: #86BBD8;
   --light-gray: #f6f6f6;
   --sn-stylekit-shadow-color: var(--light-gray);
   --sn-stylekit-foreground-color: var(--soft-black);
-  --sn-stylekit-info-color: var(--green);
+  --sn-stylekit-info-color: var(--blue);
   --sn-stylekit-info-contrast-color: var(--soft-black);
   --sn-stylekit-neutral-color: #7c7c7c;
   --sn-stylekit-neutral-contrast-color: var(--soft-black);
-  --sn-stylekit-success-color: var(--green);
+  --sn-stylekit-success-color: var(--blue);
   --sn-stylekit-success-contrast-color: var(--soft-black);
   --sn-stylekit-warning-color: var(--blue);
   --sn-stylekit-warning-contrast-color: var(--soft-black);
@@ -40,12 +40,12 @@
 }
 
 :root #footer-bar  {
-  background-color: var(--blue) !important;
-  color: var(--soft-black) !important;
+  background-color: var(--purple) !important;
+  color: var(--soft-white) !important;
 }
 
 :root .sn-tag:hover {
-  background-color: var(--soft-black) !important;
+  background-color: var(--purple) !important;
   color: var(--soft-white) !important;
 }
 
