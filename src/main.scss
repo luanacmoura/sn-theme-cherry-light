@@ -61,3 +61,7 @@
 :root .sn-component *.info {
   color: var(--soft-black) !important; 
 }
+
+:root .eHUkCo blockquote::before {
+  background-color: var(--purple)
+}

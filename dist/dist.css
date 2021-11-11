@@ -62,4 +62,8 @@
   color: var(--soft-black) !important;
 }
 
+:root .eHUkCo blockquote::before {
+  background-color: var(--purple);
+}
+
 /*# sourceMappingURL=dist.css.map */
