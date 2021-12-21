@@ -22,7 +22,7 @@
   --sn-stylekit-editor-foreground-color: var(--soft-black);
   --sn-stylekit-border-color: var(--light-gray);
   --sn-stylekit-contrast-background-color: var(--light-gray);
-  --sn-stylekit-contrast-foreground-color: var(--blue);
+  --sn-stylekit-contrast-foreground-color: var(--soft-black);
   --sn-stylekit-contrast-border-color: 0;
   --sn-stylekit-secondary-background-color: var(--soft-black);
   --sn-stylekit-secondary-foreground-color: var(--soft-white);
@@ -37,6 +37,14 @@
   --sn-desktop-titlebar-border-color: var(--light-gray);
   --sn-desktop-titlebar-ui-color: var(--soft-black);
   --sn-desktop-titlebar-ui-hover-color: var(--melon-pink);
+}
+
+.sk-h2 .notes {
+  color: var(--soft-black) !important;
+}
+
+.tag-tree .self.selected {
+  color: var(--soft-white) !important;
 }
 
 :root #footer-bar {
