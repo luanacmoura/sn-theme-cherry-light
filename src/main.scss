@@ -83,3 +83,11 @@
 :root .tag-tree .self .tag-info .title {
 	color: #ffffff;
 }
+
+#editor blockquote {
+  border-left: 0.3rem solid var(--purple) !important;
+}
+
+.redactor-styles blockquote {
+  border-left: 0.3rem solid var(--purple) !important;
+}

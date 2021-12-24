@@ -85,13 +85,12 @@
   color: #ffffff;
 }
 
-:root #tags-content > div.scrollable > div > div > div.tag-info > div.tag-icon {
-  color: var(--border-color);
-  opacity: 0.5;
+#editor blockquote {
+  border-left: 0.3rem solid var(--purple) !important;
 }
 
-:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.menu {
-  color: #1a1a1a;
+.redactor-styles blockquote {
+  border-left: 0.3rem solid var(--purple) !important;
 }
 
 /*# sourceMappingURL=dist.css.map */
