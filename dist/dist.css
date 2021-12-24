@@ -6,17 +6,20 @@
   --purple: #AA4465;
   --blue: #86BBD8;
   --light-gray: #f6f6f6;
+  --light-green: #90ee90;
+  --yellow: #FFC300;
+  --soft-red: #FF5733;
   --sn-stylekit-shadow-color: var(--light-gray);
-  --sn-stylekit-foreground-color: var(--soft-white);
+  --sn-stylekit-foreground-color: var(--soft-black);
   --sn-stylekit-info-color: var(--blue);
   --sn-stylekit-info-contrast-color: var(--soft-black);
   --sn-stylekit-neutral-color: #7c7c7c;
   --sn-stylekit-neutral-contrast-color: var(--soft-black);
-  --sn-stylekit-success-color: var(--blue);
+  --sn-stylekit-success-color: var(--light-green);
   --sn-stylekit-success-contrast-color: var(--soft-black);
-  --sn-stylekit-warning-color: var(--blue);
+  --sn-stylekit-warning-color: var(--yellow);
   --sn-stylekit-warning-contrast-color: var(--soft-black);
-  --sn-stylekit-danger-color: var(--melon-pink);
+  --sn-stylekit-danger-color: var(--soft-red);
   --sn-stylekit-danger-contrast-color: var(--soft-black);
   --sn-stylekit-editor-background-color: white;
   --sn-stylekit-editor-foreground-color: var(--soft-black);
@@ -39,7 +42,7 @@
   --sn-desktop-titlebar-ui-hover-color: var(--melon-pink);
 }
 
-.p-4 #notes-column .note .notes .note .sk-menu-panel {
+#notes-title-bar #notes-column .note .notes .note {
   color: var(--soft-black) !important;
 }
 
