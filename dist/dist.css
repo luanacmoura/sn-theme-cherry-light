@@ -35,7 +35,7 @@
   --sn-stylekit-secondary-contrast-border-color: var(--soft-black);
   --sn-stylekit-paragraph-text-color: var(--soft-black);
   --sn-stylekit-scrollbar-track-border-color: var(--light-gray);
-  --sn-stylekit-scrollbar-thumb-color: var(--soft-black);
+  --sn-stylekit-scrollbar-thumb-color: var(--blue);
   --sn-desktop-titlebar-bg-color: var(--soft-white);
   --sn-desktop-titlebar-border-color: var(--light-gray);
   --sn-desktop-titlebar-ui-color: var(--soft-black);
@@ -44,10 +44,6 @@
 
 #notes-title-bar #notes-column .note .notes .note {
   color: var(--soft-black) !important;
-}
-
-.tag-tree .self.selected {
-  color: var(--soft-white) !important;
 }
 
 :root #footer-bar {
@@ -75,6 +71,27 @@
 
 :root .eHUkCo blockquote::before {
   background-color: var(--purple);
+}
+
+:root .tags .tag > .menu {
+  opacity: 1;
+}
+
+:root #tags-content > div.scrollable > div > div > div > input {
+  color: #cccccc;
+}
+
+:root .tag-tree .self .tag-info .title {
+  color: #ffffff;
+}
+
+:root #tags-content > div.scrollable > div > div > div.tag-info > div.tag-icon {
+  color: var(--border-color);
+  opacity: 0.5;
+}
+
+:root #tags-content > div.scrollable > div > div.tag.ng-scope.selected > div.menu {
+  color: #1a1a1a;
 }
 
 /*# sourceMappingURL=dist.css.map */
